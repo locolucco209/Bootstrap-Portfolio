@@ -34,54 +34,59 @@
         p {
             background-color: none;
         }
+        
+        .class {
+            margin: auto;
+        }
     </style>
 </head>
 
 <body>
-    <header id="masthead">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-lg-8">
-                    <a href="index.html" id="logo">Luke V. Massetti</a>
+    <div class="center">
+        <header id="masthead">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <a href="index.html" id="logo">Luke V. Massetti</a>
+                    </div>
+                    <nav class="col-12 col-lg-4">
+                        <a href="index.html">About</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
                 </div>
-                <nav class="col-12 col-lg-4">
-                    <a href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
-                </nav>
-            </div>
-    </header>
+        </header>
+        </div>
+        <div id="main-container" class="row">
+            <section class="main-section">
+                <div class="col-12 col-lg-8">
+                    <h1>About Me</h1>
+                    <img src="assets/images/LukeAISelfie.png" class="auth-image" alt="Image of Luke Massetti the greatest Web Dev ever">
+                    <p>I have the ability to take an idea and put together the technology resources, define the product vision and establish the communication channels between the Product and Development Teams, to bring that idea to life!</p><br>
+                    <p>I am currently enrolled in UCSD Full Stack webdevelopment bootcamp to hone my engineering skills as a Frontend Developer. I am making a shift from a Product Owner to the engineering side.</p>
+                </div>
+            </section>
 
-    <div id="main-container" class="row">
-        <section class="main-section">
-            <div class="col-12 col-lg-8">
-                <h1>About Me</h1>
-                <img src="assets/images/LukeAISelfie.png" class="auth-image" alt="Image of Luke Massetti the greatest Web Dev ever">
-                <p>I have the ability to take an idea and put together the technology resources, define the product vision and establish the communication channels between the Product and Development Teams, to bring that idea to life!</p><br>
-                <p>I am currently enrolled in UCSD Full Stack webdevelopment bootcamp to hone my engineering skills as a Frontend Developer. I am making a shift from a Product Owner to the engineering side.</p>
-            </div>
-        </section>
-
-        <!--If I tag this section with a 'class' or ID it doesn't work, and overrides the col label and I can't add
+            <!--If I tag this section with a 'class' or ID it doesn't work, and overrides the col label and I can't add
         any background color or borders:
         <section class="sidebar">    
         <div="col-12 col-lg-4">
         </div>
          </section> -->
-        <div id="test" class="col-12 col-lg-4">
-            <h2>Connect with Me</h2>
-            <a href="https://github.com/locolucco209"><img src="assets/images/githublogo.png" alt="Luke's GitHub Account"></a>
-            <a href="https://www.linkedin.com/in/lukevmassetti"><img src="assets/images/linkedinlogo.png" alt="Luke's LinkedIn Account"></a>
-            <a href="https://stackoverflow.com/users/locolucco209"><img src="assets/images/stackoverflowlogo.png" alt="Luke's Stackoverflow Account"></a>
+            <div id="test" class="col-12 col-lg-4">
+                <h2>Connect with Me</h2>
+                <a href="https://github.com/locolucco209"><img src="assets/images/githublogo.png" alt="Luke's GitHub Account"></a>
+                <a href="https://www.linkedin.com/in/lukevmassetti"><img src="assets/images/linkedinlogo.png" alt="Luke's LinkedIn Account"></a>
+                <a href="https://stackoverflow.com/users/locolucco209"><img src="assets/images/stackoverflowlogo.png" alt="Luke's Stackoverflow Account"></a>
+            </div>
         </div>
+
+        <footer class="row">
+            <div class="col-12 col-lg-12">
+                <p>Copyright &copy; Luke V. Massetti</p>
+            </div>
+        </footer>
     </div>
-
-    <footer class="row">
-        <div class="col-12 col-lg-12">
-            <p>Copyright &copy; Luke V. Massetti</p>
-        </div>
-    </footer>
-
 </body>
 
 </html>
